@@ -2,6 +2,13 @@ package main
 
 import "fmt"
 
+// 包内部变量
+var (
+	aa = "aa"
+	bb = 123
+	cc = false
+)
+
 // 定义一个变量
 func variableZeroValue() {
 	// var 定义一个变量之后，都会有初始值
@@ -48,4 +55,6 @@ func main() {
 	variableTypeDeduction()
 	horizon()
 	variableShorter()
+	horizon()
+	fmt.Println(aa, bb, cc)
 }

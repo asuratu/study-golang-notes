@@ -36,5 +36,5 @@ func main() {
 		convertToBin(0),
 	)
 
-	printFile("/Users/asura/Code/go/taobao/01、basic/abc.txt")
+	printFile("abc.txt")
 }

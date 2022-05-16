@@ -43,5 +43,8 @@ func main() {
 	slice1 := arr[2:6]
 	slice2 := slice1[3:5]
 	fmt.Println(slice1)
-	fmt.Println(slice2)
+	fmt.Printf("arr=%v, slice=%v, len=%d, cap=%d\n", arr, slice2, len(slice2), cap(slice2))
+	fmt.Println("---------append slice----------")
+	slice3 := append(slice2, 88, 99, 100)
+	fmt.Printf("arr=%v, slice=%v, len=%d, cap=%d\n", arr, slice3, len(slice3), cap(slice3))
 }

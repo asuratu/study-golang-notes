@@ -12,7 +12,8 @@ func main() {
 	// var q queue.Queue
 	// q := make(queue.Queue, 0)
 	q := queue.Queue{1}
-	q.Push(3, 4)
+	q.Push(3)
+	q.Push(4)
 	fmt.Println(q)
 	fmt.Println(q.Pop())
 	fmt.Println(q.Pop())
